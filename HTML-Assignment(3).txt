@@ -1,0 +1,37 @@
+3. Design a contact us form with all fields as required.
+
+Code :
+
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h1 align="center">Contact us</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Contact Us Form</legend>
+            <label for="">Name :
+                <input type="text" placeholder="Enter Your Name" maxlength="30" size="40" required>
+            </label>
+            <br>
+            <label for="">Email :
+                <input type="email" placeholder="Enter Your Mail" maxlength="40" size="40">
+            </label>
+            <br>
+            <label for="">Phone :
+                <input type="tel" placeholder="Enter Your Mobile Number" size="30" maxlength="13">
+            </label>
+            <br>
+            <label for="">Message :
+                <textarea name="explain" id="explain" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+            <input type="submit" value="submit" onclick="alert ('Your form is submitted')">
+            <input type="reset" value="reset" onclick="alert ('Please fill again')">
+        </fieldset>
+    </form>
+</body>
+</html>

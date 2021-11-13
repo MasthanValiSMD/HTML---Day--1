@@ -1,0 +1,10 @@
+4. Create an element that helps you to open the https://google.com in separate new tab.
+
+Code :
+<html lang="en">
+<head>
+<title>Anchor</title>
+<body>
+  <a href="https://www.google.com" target="blank">Google</a>
+</body>
+</html>

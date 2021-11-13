@@ -1,0 +1,14 @@
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+Code: 
+<html lang="en">
+<head>
+<title>Default Value</title>
+</head>
+<body>
+    <form>
+    <hr>
+    <input type="text" value="Default Value">
+    </form>
+</body>
+</html>
